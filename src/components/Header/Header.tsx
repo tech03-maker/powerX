@@ -81,7 +81,7 @@ const Header = () => {
                 </a>
               </li>
             </ul>
-            <div className="w-100">
+            <div>
               <a href="#">
                 <button type="button" className="reg_Btn w-100">
                   Register

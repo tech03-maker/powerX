@@ -1,0 +1,93 @@
+a {
+  text-decoration: none !important;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel {
+  height: 100vh;
+}
+
+.carousel-item {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../assets/carousel-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-caption {
+  position: relative;
+  bottom: 10rem !important;
+}
+
+.carousel-caption h5 {
+  color: #4cc241;
+}
+
+.first_subtext {
+  font-size: 3rem;
+}
+
+.submit {
+  background-color: #4cc241;
+  color: white;
+  padding: 9px;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  transition: ease-in 0.3s;
+}
+.notice {
+  background-color: #ff7e00;
+  color: white;
+  padding: 9px;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  transition: ease-in 0.3s;
+}
+
+.submit:hover {
+  border: 5px solid rgba(255, 255, 255, 0.384);
+}
+.notice:hover {
+  border: 5px solid rgba(255, 255, 255, 0.384);
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 767px) {
+  .submit {
+    width: 75%;
+  }
+  .notice {
+    width: 75%;
+  }
+
+  .carousel-caption {
+    position: relative;
+    bottom: 5rem !important;
+  }
+  .first_subtext {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1023) {
+  .submit {
+    width: 75%;
+  }
+  .notice {
+    width: 75%;
+  }
+
+  .carousel-caption {
+    position: relative;
+    bottom: 5rem !important;
+  }
+  .first_subtext {
+    font-size: 2rem;
+  }
+}
