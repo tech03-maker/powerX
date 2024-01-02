@@ -5,5 +5,4 @@
 .container{
     animation: fadeInUp;
     animation-duration: 2s;
-    animation-delay: 3s;
 }

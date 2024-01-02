@@ -62,4 +62,14 @@
     .logo {
         width: 50%;
       }
+
+      .above{
+        display: none;
+      }
+}
+
+@media scree and(max-width:1023px){
+  .above{
+    display: none;
+  }
 }
