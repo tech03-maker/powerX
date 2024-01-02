@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={carousel1} className="d-block w-100" alt="img" />
+            <img src={carousel1} className="img d-block w-100" alt="img" />
             <div className="carousel-caption">
               <h5 className="fw-bold">GLOBAL DIGITAL CAMPUS</h5>
               <p className="first_subtext fw-bold">
