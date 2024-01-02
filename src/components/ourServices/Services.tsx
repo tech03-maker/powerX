@@ -47,7 +47,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img className="card-img-top" src={service2} alt="Title" />
               <div className="card-body">
                 <h4 className="card-title">VOCATIONAL AND CAREER COURSES</h4>
@@ -62,7 +62,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img className="card-img-top" src={service3} alt="Title" />
               <div className="card-body">
                 <h4 className="card-title">MATHS MASTERCLASS</h4>
@@ -74,9 +74,9 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-3">
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img className="card-img-top" src={service4} alt="Title" />
               <div className="card-body">
                 <h4 className="card-title">PUBLIC LECTURES</h4>
@@ -108,7 +108,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-            <div className="card">
+            <div className="card h-100">
               <img className="card-img-top" src={service6} alt="Title" />
               <div className="card-body">
                 <h4 className="card-title">
