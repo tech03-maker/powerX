@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import "./Featured.css";
 import first from "../../assets/first.png";
 import second from "../../assets/second.png";
